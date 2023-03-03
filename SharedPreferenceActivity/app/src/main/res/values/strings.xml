@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SharedPreferenceActivity</string>
+    <String name="key">Vazio</String>
+    <String name="valor">Valor</String>
+</resources>

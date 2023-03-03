@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".DetalhesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/tv_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Nome:"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/purple_500"/>
+
+        <TextView
+            android:id="@+id/tv_morada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Morada:"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/purple_500"/>
+
+        <TextView
+            android:id="@+id/tv_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Email:"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/purple_500"/>
+    </LinearLayout>
+</LinearLayout>

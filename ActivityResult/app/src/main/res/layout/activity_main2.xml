@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qual o seu Nome?"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:textColor="@color/purple_200"
+            android:fontFamily="sans-serif-condensed-light"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_nome"/>
+
+        <Button
+            android:id="@+id/btn_concluir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Concluir"
+            android:fontFamily="sans-serif-light"
+            android:textSize="40dp"
+            android:background="#0000FF"/>
+
+    </LinearLayout>
+
+</LinearLayout>
